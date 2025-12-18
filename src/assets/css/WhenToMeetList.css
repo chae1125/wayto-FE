@@ -1,0 +1,71 @@
+.when-to-meet-list-section {
+  padding: 20px;
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.when-to-meet-list-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.when-to-meet-section-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.when-to-meet-section-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 13px;
+  margin-top: 40px;
+  text-align: left;
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.when-to-meet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.create-button {
+  width: 180px;
+  height: 50px;
+  background-color: #090A0A;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 48px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.create-button:hover {
+  opacity: 0.85;
+}
+
+.bottom-box {
+  height: 100px;
+  background-color: #EBEBEB;
+  margin-top: 50px;
+}
